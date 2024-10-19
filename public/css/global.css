@@ -71,7 +71,7 @@ main {
     li {
       a {
 
-        .category,
+        .topic,
         .date {
           display: none;
         }

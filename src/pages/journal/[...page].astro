@@ -26,7 +26,7 @@ const params = Astro.params;
       <ListItem url={`/journal/${p.slug}`}
                 title={p.data.title}
                 date={p.data.created.toISOString().slice(0, 10)}
-                category={p.data.category} />
+                topic={p.data.topic} />
     ))}
   </ul>
   <Paginator

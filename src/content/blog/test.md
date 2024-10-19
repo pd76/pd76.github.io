@@ -2,7 +2,7 @@
 title:  "Testing Post"
 created: "2023-01-22"
 updated: "2023-01-22"
-category: bookmark
+topic: bookmark
 author: "Spencer Wright"
 source: "https://www.scopeofwork.net/on-documentation/?ref=scope-of-work-newsletter"
 published: true

@@ -10,7 +10,7 @@ const blogCollection = defineCollection({
     created: z.string().transform((str) => new Date(str)),
     updated: z.string().transform((str) => new Date(str)).optional(),
     published: z.boolean(),
-    category: z.string(),
+    topic: z.string(),
     author: z.string().optional(),
     source: z.string().optional(),
   }),
