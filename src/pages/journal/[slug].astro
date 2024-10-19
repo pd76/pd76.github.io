@@ -19,8 +19,8 @@ const { Content } = await entry.render();
     <Back title="journal" href="/journal" />
   <Header
 		title={entry.data.title}
-     created={entry.data.created.toISOString().slice(0, 10)}
-     updated={entry.data.updated.toISOString().slice(0, 10)}
+    created={entry.data.created.toISOString().slice(0, 10)}
+    updated={entry.data.updated.toISOString().slice(0, 10)}
     author={entry.data.author}
     category={entry.data.category}
     source={entry.data.source}

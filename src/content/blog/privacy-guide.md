@@ -1,7 +1,7 @@
 ---
 title:  "Your guide to privacy in an increasingly uncertain environment"
-created: "2024-01-22"
-updated: "2024-01-22"
+created: "2024-10-13"
+updated: "2024-10-19"
 category: privacy
 published: true
 ---
