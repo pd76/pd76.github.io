@@ -119,8 +119,9 @@ li {
 
 a {
   color: var(--neutral);
-  text-decoration: none;
-
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  
   &:hover {
     color: var(--light);
     transition: color .3s ease-in-out;
