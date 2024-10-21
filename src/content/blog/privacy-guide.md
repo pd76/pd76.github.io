@@ -11,7 +11,7 @@ I must warn you, the privacy journey is long and requires a willingness to think
 
 ![Privacy difficulty graph](/images/privacy-difficulty-graph.svg)
 
-First, you need to assess your situation and figure out what degree of privacy you need and what threats you might face. This is known as threat modelling, and it will help you make rational decisions that will benefit you long term.
+First, you need to assess your situation {% sidenote "This is a testing sidenote" &} and figure out what degree of privacy you need and what threats you might face. This is known as threat modelling, and it will help you make rational decisions that will benefit you long term.
 
 Generally, a threat model consists of five questions to ask yourself:
 1. What do I want to protect? Eg. family photos, bank account, political affiliation, or text messages.
