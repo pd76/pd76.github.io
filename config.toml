@@ -1,0 +1,21 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+title = "My blog"
+description = "A blog about tech"
+compile_sass = true
+build_search_index = false
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+highlight_code = true
+highlight_theme = "ayu-light"
+
+[extra]
+author = "Patrick Dinegan"
+author_bio = "A brief bio about yourself"
+author_email = "your.email@example.com"
+# Optional social links
+social_links = [
+    { name = "GitHub", url = "https://github.com/yourusername" },
+    { name = "Twitter", url = "https://twitter.com/yourusername" },
+]

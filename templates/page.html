@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %}{{ config.extra.author
+}} - {{ page.title }}{% endblock title %} {% block content %}
+<article>
+    <h1>{{ page.title }}</h1>
+    <section class="header">
+        <div class="info">
+            Posted on
+            <time datetime="{{ page.date }}"
+                >{{ page.date | date(format="%B %d, %Y") }}</time
+            >
+            {% if config.extra.author %} by {{ config.extra.author }} {% endif
+            %}
+        </div>
+        {% if page.taxonomies.tags %}
+                <div class="info">
+                    Tags:
+                    {% for tag in page.taxonomies.tags %}
+                        <a title="All pages tagged '{{ tag }}'." href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+    </section>
+    <div class="content">{{ page.content | safe }}</div>
+</article>
+{% endblock content %}

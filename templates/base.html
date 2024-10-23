@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- saved from url=(0027)https://www.poberezkin.com/ -->
+<html lang="en" data-darkreader-proxy-injected="true">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+        <link rel="stylesheet" href="{{ get_url(path='style.css') | safe }}" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <nav role="navigation">
+                <div class="source">
+                    <div>
+                        <a href="https://github.com/epoberezkin/poberezkin.com"
+                            >source code</a
+                        >
+                    </div>
+                    <div>
+                        <a
+                            href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en"
+                        >
+                            CC BY-NC-ND</a
+                        >
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="/">{{ config.extra.author }}</a>
+                </div>
+                <a class="nav" href="/">Blog</a>
+                <a class="nav" href="/tags/privacy">#privacy</a>
+                <a class="nav" href="/tags/coding">#coding</a>
+                <a class="nav" href="/tags/rust">#rust</a>
+                <a class="nav" href="/tags/talk">#talk</a>
+                <a class="nav" href="/about">About</a>
+            </nav>
+
+            <main role="main">{% block content %}{% endblock content %}</main>
+        </div>
+    </body>
+</html>
