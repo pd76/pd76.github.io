@@ -3,12 +3,27 @@ base_url = "https://pd76.github.io"
 title = "My blog"
 description = "A blog about tech"
 compile_sass = true
+minify_html = true
 build_search_index = false
+generate_sitemap = true
+generate_robots_txt = true
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
 taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
+render_emoji = false
 highlight_code = true
 highlight_theme = "OneHalfDark"
+bottom_footnotes = true
+smart_punctuation = true
+external_links_target_blank = true
+external_links_no_follow = true
+external_links_no_referrer = true
+
+[link_checker]
+internal_level = "error"
+external_level = "error"
 
 [extra]
 author = "Patrick Dinegan"

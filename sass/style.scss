@@ -315,14 +315,11 @@ img.talk {
     height: 12px;
 }
 
-.footnote-definition {
-    border-top: 1px solid var(--color-border);
-    margin-top: 2em;
-    padding-top: 0.5em;
-
+.footnotes-list {
     &::before {
         content: "Footnotes";
         display: block;
+        font-family: "Lora", serif;
         font-weight: normal;
         font-size: 1.3em;
         margin-bottom: 1em;
