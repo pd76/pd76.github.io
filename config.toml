@@ -8,7 +8,7 @@ taxonomies = [{ name = "tags", feed = true }]
 
 [markdown]
 highlight_code = true
-highlight_theme = "ayu-light"
+highlight_theme = "OneHalfDark"
 
 [extra]
 author = "Patrick Dinegan"
