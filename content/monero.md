@@ -4,6 +4,8 @@ date = 2024-08-02
 description = "This is my first blog post using Zola"
 [taxonomies]
 tags = ["web", "rust", "static-site", "zola", "tutorial"]
+[extra]
+importance = 10
 +++
 
 Many people have asked me why I use Monero and care so much about privacy, so here's my answer.

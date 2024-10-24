@@ -4,6 +4,8 @@ date = 2024-10-21
 description = "This is my first blog post using Zola"
 [taxonomies]
 tags = ["web", "rust", "static-site", "zola", "tutorial"]
+[extra]
+importance = 10
 +++
 
 This is the content of my first blog post.

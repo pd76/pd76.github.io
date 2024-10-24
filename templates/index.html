@@ -1,7 +1,7 @@
 {% extends "base.html" %} {% block content %}
 <h1>{{ section.title }}</h1>
-{{ section.content | safe }} {% set posts = get_section(path="posts/_index.md")
-%} {% if posts.pages %}
+{{ section.content | safe }} {% set posts = get_section(path="_index.md") %} {%
+if posts.pages %}
 <ul class="posts">
     {% for page in posts.pages | sort(attribute="date") | reverse %}
     <li>

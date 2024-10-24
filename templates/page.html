@@ -1,24 +1,38 @@
 {% extends "base.html" %} {% block title %}{{ config.extra.author
 }} - {{ page.title }}{% endblock title %} {% block content %}
 <article>
-    <h1>{{ page.title }}</h1>
-    <section class="header">
+    <h1 class="title">{{ page.title }}</h1>
+    <section class="metadata">
         <div class="info">
             Posted on
             <time datetime="{{ page.date }}"
                 >{{ page.date | date(format="%B %d, %Y") }}</time
             >
-            {% if config.extra.author %} by {{ config.extra.author }} {% endif
-            %}
         </div>
         {% if page.taxonomies.tags %}
-                <div class="info">
-                    Tags:
-                    {% for tag in page.taxonomies.tags %}
-                        <a title="All pages tagged '{{ tag }}'." href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
-                    {% endfor %}
-                </div>
+        <div class="info">
+            Tags:
+            {% for tag in page.taxonomies.tags %}
+                <a title="All pages tagged '{{ tag }}'." href="{{ get_taxonomy_url(kind="tags", name=tag) }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+        <!-- Display importance level if it exists -->
+        {% if page.extra.importance is defined and page.extra.importance > 0 and page.extra.importance <= 10 %}
+            <div class="importance-indicator">
+                {% set importance = page.extra.importance %}
+                Importance:
+                {% if importance == 0 %}
+                    <span class="not-listed">Not Listed ({{ importance }})</span>
+                {% elif importance <= 2 %}
+                    <span class="low">Low ({{ importance }})</span>
+                {% elif importance <= 5 %}
+                    <span class="medium">Medium ({{ importance }})</span>
+                {% else %}
+                    <span class="high">High ({{ importance }})</span>
                 {% endif %}
+            </div>
+        {% endif %}
     </section>
     <div class="content">{{ page.content | safe }}</div>
 </article>

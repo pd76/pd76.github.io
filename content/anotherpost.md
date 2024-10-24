@@ -3,6 +3,8 @@ title = "The Silent Song of Europa"
 date = 2157-03-15
 [taxonomies]
 tags = ["web", "rust", "static-site", "zola", "talk", "tutorial"]
+[extra]
+importance = 10
 +++
 
 The ice sheets of Europa[^1] stretched endlessly before me, their crystalline surface refracting Jupiter's distant light in ways that made the whole moon seem alive with color. After fifteen years of preparation, humanity's first deep-ice exploration facility was finally operational. The massive structure of Jupiter Station Alpha rose from the ice like a mechanical bloom, its thermal stabilizers continuously fighting against the moon's brutal cold.
