@@ -47,10 +47,6 @@ body {
     padding: 40px 20px;
     display: flex;
     justify-content: center;
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
 }
 
 nav {
@@ -376,6 +372,10 @@ img.talk {
     .container {
         flex-direction: column;
         padding: 20px;
+        text-align: start;
+        hyphens: none;
+        -webkit-hyphens: none;
+        -ms-hyphens: none;
     }
 
     nav {
@@ -417,6 +417,10 @@ img.talk {
 @media (min-width: 1200px) {
     .container {
         gap: 60px;
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -ms-hyphens: auto;
     }
 
     .sidenotes {
