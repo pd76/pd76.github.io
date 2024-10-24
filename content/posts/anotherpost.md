@@ -4,6 +4,7 @@ date = 2157-03-15
 [taxonomies]
 tags = ["web", "rust", "static-site", "zola", "talk", "tutorial"]
 +++
+
 The ice sheets of Europa[^1] stretched endlessly before me, their crystalline surface refracting Jupiter's distant light in ways that made the whole moon seem alive with color. After fifteen years of preparation, humanity's first deep-ice exploration facility was finally operational. The massive structure of Jupiter Station Alpha rose from the ice like a mechanical bloom, its thermal stabilizers continuously fighting against the moon's brutal cold.
 
 The initial system check pinged back exactly as expected:
@@ -24,7 +25,7 @@ fn check_station_systems() -> SystemStatus {
 
 I remember the day we first powered up those systems, watching the diagnostics scroll past on our screens, each green indicator a small victory against the hostile environment of this alien moon. Now, thirty-seven days into our deployment, those same systems have become a comforting background hum to our daily operations.
 
-The drilling stopped today. Not because of equipment failure or safety protocols, but because of music. The discovery has shaken our entire team to the core, challenging everything we thought we knew about this frozen world. Dr. Rodriguez first noticed it during his routine vibration analysis. The ice wasn't just creaking and shifting as we'd expected - it was resonating in patterns. Regular, repeating patterns that couldn't be explained by tidal forces or thermal stress. The frequencies formed harmonies that defied natural explanation.
+The drilling stopped today{{ sidenote(content="This text will appear as a sidenote in the margin. You can write multiple sentences here if needed.") }}. Not because of equipment failure or safety protocols, but because of music. The discovery has shaken our entire team to the core, challenging everything we thought we knew about this frozen world. Dr. Rodriguez first noticed it during his routine vibration analysis. The ice wasn't just creaking and shifting as we'd expected - it was resonating in patterns. Regular, repeating patterns that couldn't be explained by tidal forces or thermal stress. The frequencies formed harmonies that defied natural explanation.
 
 Here's what our acoustic analysis software initially reported:
 
@@ -48,7 +49,7 @@ impl ResonancePattern {
 }
 ```
 
-The patterns were unlike anything we'd seen before. They seemed to pulse with a rhythm that matched nothing in our databases, yet carried an unmistakable sense of purpose. When Dr. Rodriguez said, "It's like the ice is singing," his voice trembled with a mixture of excitement and fear. "But the real question is: who taught it the melody?"
+The patterns were unlike{{ sidenote(content="This text will appear as a sidenote in the margin yet again. You can write multiple sentences here if needed.") }} anything we'd{{ sidenote(content="This is yet another sidenote") }} seen before. They seemed to pulse with a rhythm that matched nothing in our databases, yet carried an unmistakable sense of purpose. When Dr. Rodriguez said, "It's like the ice is singing," his voice trembled with a mixture of excitement and fear. "But the real question is: who taught it the melody?"
 
 We've sent the data back to Earth, but at this distance, it'll take 45 minutes to receive a response. Meanwhile, the patterns continue, growing stronger as we drill deeper. Each new layer of ice seems to add another voice to this alien chorus. Our deep-penetrating radar shows structures below the ice, in what we thought was a uniform ocean. Geometric shapes that have no business existing 19 kilometers beneath the surface of an alien moon.
 

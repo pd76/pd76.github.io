@@ -1,0 +1,10 @@
+{% set_global sidenote_count = sidenote_count | default(value=0) + 1 %}
+<span class="sidenote" aria-describedby="sn{{ sidenote_count }}">
+    <a
+        class="sidenote-number"
+        id="sn{{ sidenote_count }}"
+        href="#sn-{{ sidenote_count }}"
+        >{{ sidenote_count }}</a
+    >
+    {{ content }}
+</span>
