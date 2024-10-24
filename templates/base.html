@@ -31,12 +31,14 @@
                 <div class="logo">
                     <a href="/">{{ config.extra.author }}</a>
                 </div>
-                <a class="nav" href="/">Blog</a>
-                <a class="nav" href="/tags/privacy">#privacy</a>
-                <a class="nav" href="/tags/coding">#coding</a>
-                <a class="nav" href="/tags/rust">#rust</a>
-                <a class="nav" href="/tags/talk">#talk</a>
-                <a class="nav" href="/about">About</a>
+                <div class="nav-links">
+                    <a class="nav" href="/">Blog</a>
+                    <a class="nav" href="/tags/privacy">#privacy</a>
+                    <a class="nav" href="/tags/coding">#coding</a>
+                    <a class="nav" href="/tags/rust">#rust</a>
+                    <a class="nav" href="/tags/talk">#talk</a>
+                    <a class="nav" href="/about">About</a>
+                </div>
             </nav>
 
             <main role="main">{% block content %}{% endblock content %}</main>
