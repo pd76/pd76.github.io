@@ -428,6 +428,19 @@ img.talk {
     }
 
     nav .logo a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: start;
+        hyphens: none;
+        -webkit-hyphens: none;
+        -ms-hyphens: none;
+    }
+
+    nav .logo a,
     h1 {
         font-size: 3.6rem;
     }
