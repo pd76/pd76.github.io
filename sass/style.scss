@@ -155,31 +155,37 @@ h1 {
     line-height: 1.2;
     letter-spacing: -0.1rem;
     border-bottom: none;
+    text-decoration: none;
 }
 h2 {
     font-size: 2.4rem;
     line-height: 1.25;
     letter-spacing: -0.1rem;
+    text-decoration: none;
 }
 h3 {
     font-size: 2rem;
     line-height: 1.3;
     letter-spacing: -0.1rem;
+    text-decoration: none;
 }
 h4 {
     font-size: 1.7rem;
     line-height: 1.35;
     letter-spacing: -0.08rem;
+    text-decoration: none;
 }
 h5 {
     font-size: 1.4rem;
     line-height: 1.5;
     letter-spacing: -0.05rem;
+    text-decoration: none;
 }
 h6 {
     font-size: 1.1rem;
     line-height: 1.6;
     letter-spacing: 0;
+    text-decoration: none;
 }
 
 /* Links */
@@ -443,19 +449,24 @@ img.talk {
     nav .logo a,
     h1 {
         font-size: 3.6rem;
+        text-decoration: none;
     }
     h2 {
         font-size: 3rem;
         text-align: right;
+        text-decoration: none;
     }
     h3 {
         font-size: 2.4rem;
+        text-decoration: none;
     }
     h4 {
         font-size: 2rem;
+        text-decoration: none;
     }
     h5 {
         font-size: 1.6rem;
+        text-decoration: none;
     }
     h6 {
         font-size: 1.2rem;
