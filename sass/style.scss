@@ -110,7 +110,6 @@ main {
 nav {
     text-align: left;
     align-items: flex-start;
-    margin-right: auto;
 }
 
 nav a.nav,
@@ -401,7 +400,7 @@ img.talk {
     nav .source {
         position: static;
         font-size: 1rem;
-        margin-right: auto;
+        margin-left: auto;
     }
 
     main {
