@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>My blog - rust</title>
+      <link>https://pd76.github.io</link>
+      <description>A blog about tech</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://pd76.github.io/tags/rust/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 15 Mar 2157 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>The Silent Song of Europa</title>
+          <pubDate>Tue, 15 Mar 2157 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pd76.github.io/anotherpost/</link>
+          <guid>https://pd76.github.io/anotherpost/</guid>
+          <description xml:base="https://pd76.github.io/anotherpost/">&lt;p&gt;The ice sheets of Europa&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;[1]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; stretched endlessly before me, their crystalline surface refracting Jupiter’s distant light in ways that made the whole moon seem alive with color. After fifteen years of preparation, humanity’s first deep-ice exploration facility was finally operational. The massive structure of Jupiter Station Alpha rose from the ice like a mechanical bloom, its thermal stabilizers continuously fighting against the moon’s brutal cold.&lt;&#x2F;p&gt;
+&lt;p&gt;The initial system check pinged back exactly as expected:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;check_station_systems&lt;&#x2F;span&gt;&lt;span&gt;() -&amp;gt; SystemStatus {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; life_support &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;verify_life_support&lt;&#x2F;span&gt;&lt;span&gt;();
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; power_levels &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;check_power_generation&lt;&#x2F;span&gt;&lt;span&gt;();
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; hull_integrity &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;measure_hull_stress&lt;&#x2F;span&gt;&lt;span&gt;();
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemStatus {
+&lt;&#x2F;span&gt;&lt;span&gt;        critical_systems: life_support.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;is_optimal&lt;&#x2F;span&gt;&lt;span&gt;(),
+&lt;&#x2F;span&gt;&lt;span&gt;        power_efficiency: power_levels.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;percentage&lt;&#x2F;span&gt;&lt;span&gt;(),
+&lt;&#x2F;span&gt;&lt;span&gt;        structural_safety: hull_integrity.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;within_parameters&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I remember the day we first powered up those systems, watching the diagnostics scroll past on our screens, each green indicator a small victory against the hostile environment of this alien moon. Now, thirty-seven days into our deployment, those same systems have become a comforting background hum to our daily operations.&lt;&#x2F;p&gt;
+&lt;p&gt;The drilling stopped today
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    This text will appear as a sidenote in the margin. You can write multiple sentences here if needed.
+&lt;&#x2F;span&gt;
+. Not because of equipment failure or safety protocols, but because of music. The discovery has shaken our entire team to the core, challenging everything we thought we knew about this frozen world. Dr. Rodriguez first noticed it during his routine vibration analysis. The ice wasn’t just creaking and shifting as we’d expected - it was resonating in patterns. Regular, repeating patterns that couldn’t be explained by tidal forces or thermal stress. The frequencies formed harmonies that defied natural explanation.&lt;&#x2F;p&gt;
+&lt;p&gt;Here’s what our acoustic analysis software initially reported:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;struct &lt;&#x2F;span&gt;&lt;span&gt;ResonancePattern {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;frequency&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;amplitude&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;phase&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;timestamp&lt;&#x2F;span&gt;&lt;span&gt;: DateTime&amp;lt;Utc&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;impl &lt;&#x2F;span&gt;&lt;span&gt;ResonancePattern {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;analyze_harmonics&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;amp;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span&gt;) -&amp;gt; Vec&amp;lt;Frequency&amp;gt; {
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; base_frequency &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span&gt;.frequency;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; harmonics &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;calculate_harmonic_series&lt;&#x2F;span&gt;&lt;span&gt;(base_frequency);
+&lt;&#x2F;span&gt;&lt;span&gt;        harmonics
+&lt;&#x2F;span&gt;&lt;span&gt;            .&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;into_iter&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;            .&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;filter&lt;&#x2F;span&gt;&lt;span&gt;(|&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;h&lt;&#x2F;span&gt;&lt;span&gt;| h.amplitude &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;DETECTION_THRESHOLD&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;            .&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;collect&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The patterns were unlike
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    This text will appear as a sidenote in the margin yet again. You can write multiple sentences here if needed.
+&lt;&#x2F;span&gt;
+ anything we’d
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    This is yet another sidenote
+&lt;&#x2F;span&gt;
+ seen before. They seemed to pulse with a rhythm that matched nothing in our databases, yet carried an unmistakable sense of purpose. When Dr. Rodriguez said, “It’s like the ice is singing,” his voice trembled with a mixture of excitement and fear. “But the real question is: who taught it the melody?”&lt;&#x2F;p&gt;
+&lt;p&gt;We’ve sent the data back to Earth, but at this distance, it’ll take 45 minutes to receive a response. Meanwhile, the patterns continue, growing stronger as we drill deeper. Each new layer of ice seems to add another voice to this alien chorus. Our deep-penetrating radar shows structures below the ice, in what we thought was a uniform ocean. Geometric shapes that have no business existing 19 kilometers beneath the surface of an alien moon.&lt;&#x2F;p&gt;
+&lt;p&gt;The drilling system logs show increasingly unusual readings:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;log_drill_anomalies&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;depth&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;readings&lt;&#x2F;span&gt;&lt;span&gt;: DrillTelemetry) {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; standard_resistance &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;calculate_expected_resistance&lt;&#x2F;span&gt;&lt;span&gt;(depth);
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; actual_resistance &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span&gt; readings.ice_resistance;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(actual_resistance &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; standard_resistance).&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;abs&lt;&#x2F;span&gt;&lt;span&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;ANOMALY_THRESHOLD &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        Logger::warning(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;amp;&lt;&#x2F;span&gt;&lt;span&gt;format!(
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Unexpected ice density at depth &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;km: expected &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;, found &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            depth &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&#x2F; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;1000.0&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            standard_resistance,
+&lt;&#x2F;span&gt;&lt;span&gt;            actual_resistance
+&lt;&#x2F;span&gt;&lt;span&gt;        ));
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Dr. Santos has been analyzing the chemical composition of our deepest ice samples. She’s found complex organic molecules that shouldn’t exist in these conditions. The implications are staggering - we might not just be looking at the possibility of life, but of an entire ecosystem that has evolved in complete isolation from Earth. Her preliminary analysis requires new classification systems we hadn’t even considered necessary:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;enum &lt;&#x2F;span&gt;&lt;span&gt;OrganicCompound {
+&lt;&#x2F;span&gt;&lt;span&gt;    Terrestrial(KnownCompound),
+&lt;&#x2F;span&gt;&lt;span&gt;    Novel(UnknownStructure),
+&lt;&#x2F;span&gt;&lt;span&gt;    Hybrid{
+&lt;&#x2F;span&gt;&lt;span&gt;        known_elements: Vec&amp;lt;Element&amp;gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        unknown_bonds: Vec&amp;lt;BondType&amp;gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        stability_index: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Tomorrow we break through to the liquid layer. The team is divided - half wanting to proceed at maximum speed, the others advocating for a more cautious approach. As commander, the final decision rests with me. The weight of this responsibility is immense, knowing that our next actions could change human history forever.&lt;&#x2F;p&gt;
+&lt;p&gt;The psychological impact of our discoveries cannot be understated. Every crew member handles it differently: Dr. Rodriguez hasn’t slept in 48 hours, constantly analyzing the acoustic data; Dr. Santos alternates between intense excitement and profound anxiety; Engineer O’Brien has become unusually quiet and contemplative. Even Dr. Wright, our psychologist, admits he is struggling to maintain objectivity.&lt;&#x2F;p&gt;
+&lt;p&gt;But as I write this, watching Jupiter’s swirling storms through the reinforced viewport, I can’t help but wonder: are we discovering something, or are we being discovered? The ice beneath us holds secrets older than human civilization, and tomorrow we begin to unlock them. Our systems are ready, our protocols are in place, but nothing can truly prepare us for what we might find in the alien ocean below.&lt;&#x2F;p&gt;
+&lt;p&gt;May whatever we find there help us understand our place in the cosmos. This is Commander Sarah Chen, signing off for what might be humanity’s last night of cosmic solitude.&lt;&#x2F;p&gt;
+&lt;hr&gt;&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;This is a testing footnote &lt;a href=&quot;#fr-1-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</description>
+      </item>
+      <item>
+          <title>My First Post</title>
+          <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pd76.github.io/first-post/</link>
+          <guid>https://pd76.github.io/first-post/</guid>
+          <description xml:base="https://pd76.github.io/first-post/">&lt;p&gt;This is the content of my first blog post.&lt;&#x2F;p&gt;
+&lt;p&gt;Here’s a code block:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Hello, Zola!&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Here’s some SaSS &lt;code&gt;code&lt;&#x2F;code&gt; just for fun:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;haskell&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-haskell &quot;&gt;&lt;code class=&quot;language-haskell&quot; data-lang=&quot;haskell&quot;&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;liftError &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span&gt; (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;MonadIO &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;m&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;MonadError &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;e&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;m&lt;&#x2F;span&gt;&lt;span&gt;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;=&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt; (&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;e &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;e&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;-&amp;gt; ExceptT &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;e &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;IO &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;m a
+&lt;&#x2F;span&gt;&lt;span&gt;liftError f a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= do
+&lt;&#x2F;span&gt;&lt;span&gt;  b &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;lt;-&lt;&#x2F;span&gt;&lt;span&gt; liftIO &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span&gt; runExceptT a
+&lt;&#x2F;span&gt;&lt;span&gt;  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; c &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= case&lt;&#x2F;span&gt;&lt;span&gt; b &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;of &lt;&#x2F;span&gt;&lt;span style=&quot;color:#5c6370;&quot;&gt;-- this case is Bifunctor `first` method used above
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;Left&lt;&#x2F;span&gt;&lt;span&gt; e &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;Left&lt;&#x2F;span&gt;&lt;span&gt; (f e)
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;Right&lt;&#x2F;span&gt;&lt;span&gt; x &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;-&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;Right&lt;&#x2F;span&gt;&lt;span&gt; x
+&lt;&#x2F;span&gt;&lt;span&gt;  liftEither c
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</description>
+      </item>
+      <item>
+          <title>Embracing Monero as banks betray our privacy</title>
+          <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://pd76.github.io/monero/</link>
+          <guid>https://pd76.github.io/monero/</guid>
+          <description xml:base="https://pd76.github.io/monero/">&lt;p&gt;Many people have asked me why I use Monero and care so much about privacy, so here’s my answer.&lt;&#x2F;p&gt;
+&lt;p&gt;Most traditional banks are not just storing your money; they’re harvesting some of the most sensitive data about you. Every transaction you make paints a picture of your life - your habits, your preferences, your politics, and more than you could ever imagine. Banks coordinate with insurance companies and advertising agencies to analyze our transaction data in search of ways to charge us more or manipulate our buying behavior.&lt;&#x2F;p&gt;
+&lt;p&gt;The Fourth Amendment protects Americans from unreasonable searches by the government, yet most people roll over and give up when private entities essentially conduct invasive searches of their financial lives. They treat it as part of the cost of doing business in modern America, or they believe it is necessary for fraud prevention.&lt;&#x2F;p&gt;
+&lt;p&gt;While proponents argue that financial surveillance can help prevent fraud, this benefit is vastly outweighed by what I call the “assumed consent” model, where agreements from decades ago are used to assume consent into new privacy-invading initiatives
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    You were okay with this one thing, you&amp;#x27;ll surely be okay with this other thing, so lets bury it on page 43 in a font so small you need a microscope to read it!
+&lt;&#x2F;span&gt;
+. The current banking system actively works to squeeze every bit of value from your personal data, sharing it with insurance companies, tech giants, and advertisers.&lt;&#x2F;p&gt;
+&lt;p&gt;Monero offers an alternative to this invasive and exploitative assumed consent model. Its privacy-focused design ensures that financial transactions aren’t shared with the highest bidders. It’s not about having something to hide
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    The goal isn&amp;#x27;t to hide for fraudulant purposes, it&amp;#x27;s to maintain control over who can view what, while keeping advertisers, data brokers, and insurance companies out.
+&lt;&#x2F;span&gt;
+; it’s about maintaining the basic right to privacy in an increasingly invasive digital world. It’s a way to voice disapproval of the surveillance capitalism model which most banks and financial institutions are engaged in.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-tangibility-of-surveillance-capitalism&quot;&gt;The tangibility of surveillance capitalism&lt;&#x2F;h2&gt;
+&lt;p&gt;Consider this scenario: you spot an interesting product advertisement online and decide to make a purchase
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    Apparently this is more common than I thought. I&amp;#x27;ve always blocked ads, so I&amp;#x27;ve never had this experience.
+&lt;&#x2F;span&gt;
+. A day later, you become inundated with ads for similar items. This targeted approach isn’t just about meeting your needs, it’s a calculated effort to shape your consumer behavior, potentially leading you to make additional, unnecessary purchases.&lt;&#x2F;p&gt;
+&lt;p&gt;As another example that has directly impacted me, I often find myself in situations where I need to use mobile hotspot, typically while traveling. On top of unlimited data, Verizon tries to charge a $10 monthly subscription for mobile data. As a user of GrapheneOS, I have the ability to block the response to the ping that looks for hotspot usage, forcing the phone to report that the hotspot wasn’t used, which prevents the additional charge on top of unlimited data.&lt;&#x2F;p&gt;
+&lt;p&gt;While my situation isn’t directly related to banking, it opened my eyes to the tangibility of surveillance capitalism and how it gets average people to spend extra on things that should be included in the cost of the basic service.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

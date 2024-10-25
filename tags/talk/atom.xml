@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>My blog - talk</title>
+    <subtitle>A blog about tech</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://pd76.github.io/tags/talk/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://pd76.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2157-03-15T00:00:00+00:00</updated>
+    <id>https://pd76.github.io/tags/talk/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The Silent Song of Europa</title>
+        <published>2157-03-15T00:00:00+00:00</published>
+        <updated>2157-03-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://pd76.github.io/anotherpost/"/>
+        <id>https://pd76.github.io/anotherpost/</id>
+        
+        <content type="html" xml:base="https://pd76.github.io/anotherpost/">&lt;p&gt;The ice sheets of Europa&lt;sup class=&quot;footnote-reference&quot; id=&quot;fr-1-1&quot;&gt;&lt;a href=&quot;#fn-1&quot;&gt;[1]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; stretched endlessly before me, their crystalline surface refracting Jupiter’s distant light in ways that made the whole moon seem alive with color. After fifteen years of preparation, humanity’s first deep-ice exploration facility was finally operational. The massive structure of Jupiter Station Alpha rose from the ice like a mechanical bloom, its thermal stabilizers continuously fighting against the moon’s brutal cold.&lt;&#x2F;p&gt;
+&lt;p&gt;The initial system check pinged back exactly as expected:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;check_station_systems&lt;&#x2F;span&gt;&lt;span&gt;() -&amp;gt; SystemStatus {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; life_support &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;verify_life_support&lt;&#x2F;span&gt;&lt;span&gt;();
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; power_levels &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;check_power_generation&lt;&#x2F;span&gt;&lt;span&gt;();
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; hull_integrity &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;measure_hull_stress&lt;&#x2F;span&gt;&lt;span&gt;();
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    SystemStatus {
+&lt;&#x2F;span&gt;&lt;span&gt;        critical_systems: life_support.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;is_optimal&lt;&#x2F;span&gt;&lt;span&gt;(),
+&lt;&#x2F;span&gt;&lt;span&gt;        power_efficiency: power_levels.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;percentage&lt;&#x2F;span&gt;&lt;span&gt;(),
+&lt;&#x2F;span&gt;&lt;span&gt;        structural_safety: hull_integrity.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;within_parameters&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I remember the day we first powered up those systems, watching the diagnostics scroll past on our screens, each green indicator a small victory against the hostile environment of this alien moon. Now, thirty-seven days into our deployment, those same systems have become a comforting background hum to our daily operations.&lt;&#x2F;p&gt;
+&lt;p&gt;The drilling stopped today
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    This text will appear as a sidenote in the margin. You can write multiple sentences here if needed.
+&lt;&#x2F;span&gt;
+. Not because of equipment failure or safety protocols, but because of music. The discovery has shaken our entire team to the core, challenging everything we thought we knew about this frozen world. Dr. Rodriguez first noticed it during his routine vibration analysis. The ice wasn’t just creaking and shifting as we’d expected - it was resonating in patterns. Regular, repeating patterns that couldn’t be explained by tidal forces or thermal stress. The frequencies formed harmonies that defied natural explanation.&lt;&#x2F;p&gt;
+&lt;p&gt;Here’s what our acoustic analysis software initially reported:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;struct &lt;&#x2F;span&gt;&lt;span&gt;ResonancePattern {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;frequency&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;amplitude&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;phase&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;timestamp&lt;&#x2F;span&gt;&lt;span&gt;: DateTime&amp;lt;Utc&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;impl &lt;&#x2F;span&gt;&lt;span&gt;ResonancePattern {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;analyze_harmonics&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;amp;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span&gt;) -&amp;gt; Vec&amp;lt;Frequency&amp;gt; {
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; base_frequency &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span&gt;.frequency;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; harmonics &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;calculate_harmonic_series&lt;&#x2F;span&gt;&lt;span&gt;(base_frequency);
+&lt;&#x2F;span&gt;&lt;span&gt;        harmonics
+&lt;&#x2F;span&gt;&lt;span&gt;            .&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;into_iter&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;            .&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;filter&lt;&#x2F;span&gt;&lt;span&gt;(|&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;h&lt;&#x2F;span&gt;&lt;span&gt;| h.amplitude &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;DETECTION_THRESHOLD&lt;&#x2F;span&gt;&lt;span&gt;)
+&lt;&#x2F;span&gt;&lt;span&gt;            .&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;collect&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The patterns were unlike
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    This text will appear as a sidenote in the margin yet again. You can write multiple sentences here if needed.
+&lt;&#x2F;span&gt;
+ anything we’d
+&lt;span class=&quot;sidenote&quot; aria-describedby=&quot;sn1&quot;&gt;
+    &lt;a
+        class=&quot;sidenote-number&quot;
+        id=&quot;sn1&quot;
+        href=&quot;#sn-1&quot;
+        &gt;1&lt;&#x2F;a
+    &gt;
+    This is yet another sidenote
+&lt;&#x2F;span&gt;
+ seen before. They seemed to pulse with a rhythm that matched nothing in our databases, yet carried an unmistakable sense of purpose. When Dr. Rodriguez said, “It’s like the ice is singing,” his voice trembled with a mixture of excitement and fear. “But the real question is: who taught it the melody?”&lt;&#x2F;p&gt;
+&lt;p&gt;We’ve sent the data back to Earth, but at this distance, it’ll take 45 minutes to receive a response. Meanwhile, the patterns continue, growing stronger as we drill deeper. Each new layer of ice seems to add another voice to this alien chorus. Our deep-penetrating radar shows structures below the ice, in what we thought was a uniform ocean. Geometric shapes that have no business existing 19 kilometers beneath the surface of an alien moon.&lt;&#x2F;p&gt;
+&lt;p&gt;The drilling system logs show increasingly unusual readings:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;log_drill_anomalies&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;depth&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e06c75;&quot;&gt;readings&lt;&#x2F;span&gt;&lt;span&gt;: DrillTelemetry) {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; standard_resistance &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;calculate_expected_resistance&lt;&#x2F;span&gt;&lt;span&gt;(depth);
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; actual_resistance &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span&gt; readings.ice_resistance;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;if &lt;&#x2F;span&gt;&lt;span&gt;(actual_resistance &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;-&lt;&#x2F;span&gt;&lt;span&gt; standard_resistance).&lt;&#x2F;span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;abs&lt;&#x2F;span&gt;&lt;span&gt;() &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;ANOMALY_THRESHOLD &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        Logger::warning(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&amp;amp;&lt;&#x2F;span&gt;&lt;span&gt;format!(
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Unexpected ice density at depth &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;km: expected &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;, found &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            depth &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;&#x2F; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;1000.0&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            standard_resistance,
+&lt;&#x2F;span&gt;&lt;span&gt;            actual_resistance
+&lt;&#x2F;span&gt;&lt;span&gt;        ));
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Dr. Santos has been analyzing the chemical composition of our deepest ice samples. She’s found complex organic molecules that shouldn’t exist in these conditions. The implications are staggering - we might not just be looking at the possibility of life, but of an entire ecosystem that has evolved in complete isolation from Earth. Her preliminary analysis requires new classification systems we hadn’t even considered necessary:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#282c34;color:#dcdfe4;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;enum &lt;&#x2F;span&gt;&lt;span&gt;OrganicCompound {
+&lt;&#x2F;span&gt;&lt;span&gt;    Terrestrial(KnownCompound),
+&lt;&#x2F;span&gt;&lt;span&gt;    Novel(UnknownStructure),
+&lt;&#x2F;span&gt;&lt;span&gt;    Hybrid{
+&lt;&#x2F;span&gt;&lt;span&gt;        known_elements: Vec&amp;lt;Element&amp;gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        unknown_bonds: Vec&amp;lt;BondType&amp;gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        stability_index: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c678dd;&quot;&gt;f64
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Tomorrow we break through to the liquid layer. The team is divided - half wanting to proceed at maximum speed, the others advocating for a more cautious approach. As commander, the final decision rests with me. The weight of this responsibility is immense, knowing that our next actions could change human history forever.&lt;&#x2F;p&gt;
+&lt;p&gt;The psychological impact of our discoveries cannot be understated. Every crew member handles it differently: Dr. Rodriguez hasn’t slept in 48 hours, constantly analyzing the acoustic data; Dr. Santos alternates between intense excitement and profound anxiety; Engineer O’Brien has become unusually quiet and contemplative. Even Dr. Wright, our psychologist, admits he is struggling to maintain objectivity.&lt;&#x2F;p&gt;
+&lt;p&gt;But as I write this, watching Jupiter’s swirling storms through the reinforced viewport, I can’t help but wonder: are we discovering something, or are we being discovered? The ice beneath us holds secrets older than human civilization, and tomorrow we begin to unlock them. Our systems are ready, our protocols are in place, but nothing can truly prepare us for what we might find in the alien ocean below.&lt;&#x2F;p&gt;
+&lt;p&gt;May whatever we find there help us understand our place in the cosmos. This is Commander Sarah Chen, signing off for what might be humanity’s last night of cosmic solitude.&lt;&#x2F;p&gt;
+&lt;hr&gt;&lt;ol class=&quot;footnotes-list&quot;&gt;
+&lt;li id=&quot;fn-1&quot;&gt;
+&lt;p&gt;This is a testing footnote &lt;a href=&quot;#fr-1-1&quot;&gt;↩&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+</feed>
